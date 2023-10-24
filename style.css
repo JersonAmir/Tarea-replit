@@ -1,4 +1,5 @@
 *{
+  
 
 }
 
@@ -12,7 +13,7 @@ background: url(img/ninbg.jpg)no-repeat center center fixed;
 
 h1,h2, h3, h4, h5, h6 {
   font-family: 'Press Start 2P', cursive;
-  color: #ffffff;
+  color: #d8d8f6;
   width:100%;
   margin: auto;
 }
@@ -21,12 +22,12 @@ h2{
 }
 
 nav{
-  background-color: e4000f;
+  background-color: #2c2c34;
   font-family:'Press Start 2P', cursive;
 }
 p{
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  color: #d8d8f6;
   padding: 20px;
 }
 
@@ -47,7 +48,7 @@ footer p{
   }
 
 label{
-  color: lightgray;
+  color: #978897;
 }
 img{
   max-width: 80%;
@@ -91,4 +92,53 @@ input[type=submit]{
 .jumbotron {
   background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F03%2Fswitch-ecomm-2000.jpg");
   background-size: contain;
+}
+
+.navbar{
+  background-color: #2c2c34;
+}
+
+nav{
+  color: white;
+}
+
+#navbar{
+color: #b18fcf;
+font-family: 'roboto slab', serif;
+font-weight: 950;
+margin: 10 px;
+padding-left: 30px;
+
+}
+
+#color-text-navbar{
+  color: #d8d8f6;
+  font-family:'roboto', serif;
+ 
+}
+
+#color-text-navbar:hover{
+  color: #b18fcf;
+}
+
+.titles{
+  color: #b18fcf;
+  font-family: 'roboto', serif;
+  font-weight: 900;
+}
+
+.subtitles{
+  color: #b18fcf;
+  font-family: 'roboto', serif;
+  font-weight: 500;
+}
+
+.parrafo{
+  color: #d8d8f6;
+  font-family: 'roboto';
+  font-weight: 350;
+}
+
+.photostyle{
+  border-radius: 50px;
 }
